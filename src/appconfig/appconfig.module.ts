@@ -25,6 +25,9 @@ import * as Joi from '@hapi/joi';
         GOOGLE_AUTH_CLIENTID: Joi.string().required(),
         GOOGLE_AUTH_CLIENT_SECRET: Joi.string().required(),
         GOOGLE_AUTH_CALLBACK_URL: Joi.string().required(),
+
+        TMDB_URL: Joi.string().required(),
+        TMDB_KEY: Joi.string().required(),
       }),
     }),
   ],
