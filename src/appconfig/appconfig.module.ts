@@ -21,6 +21,10 @@ import * as Joi from '@hapi/joi';
         EMAIL_SERVICE: Joi.string().required(),
         EMAIL_USER: Joi.string().required(),
         EMAIL_PASSWORD: Joi.string().required(),
+
+        GOOGLE_AUTH_CLIENTID: Joi.string().required(),
+        GOOGLE_AUTH_CLIENT_SECRET: Joi.string().required(),
+        GOOGLE_AUTH_CALLBACK_URL: Joi.string().required(),
       }),
     }),
   ],
